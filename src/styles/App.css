@@ -1,0 +1,30 @@
+.lists {
+  margin-top: -15.0rem;
+}
+
+footer {
+  margin: 5.0rem 0;
+  text-align: center;
+}
+
+footer span {
+  display: block;
+}
+
+.loading {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.loading img {
+  width: 100%;
+}
